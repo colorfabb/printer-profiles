@@ -1,0 +1,126 @@
+{
+    "default_filament_colour": [
+        "#0000FF"
+    ],
+    "filament_cost": [
+        "33.03"
+    ],
+    "filament_extruder_variant": [
+        "Direct Drive Standard"
+    ],
+    "filament_flow_ratio": [
+        "1"
+    ],
+    "filament_max_volumetric_speed": [
+        "4.8"
+    ],
+    "filament_settings_id": [
+        "colorFabb XT-CF20"
+    ],
+    "from": "User",
+    "inherits": "Generic PETG",
+    "name": "colorFabb XT-CF20",
+    "nozzle_temperature": [
+        "250"
+    ],
+    "nozzle_temperature_initial_layer": [
+        "250"
+    ],
+	"vendor": "colorFabb",
+	"instantiation": "true",
+	"compatible_printers": [
+        "Bambu Lab A1 0.2 nozzle",
+		"Bambu Lab A1 0.4 nozzle",
+		"Bambu Lab A1 0.6 nozzle",
+		"Bambu Lab A1 0.8 nozzle",
+		
+		"Bambu Lab A1 mini 0.2 nozzle",
+		"Bambu Lab A1 mini 0.4 nozzle",
+		"Bambu Lab A1 mini 0.6 nozzle",
+		"Bambu Lab A1 mini 0.8 nozzle",
+		
+		"Bambu Lab H2D 0.2 nozzle",
+		"Bambu Lab H2D 0.4 nozzle",
+		"Bambu Lab H2D 0.6 nozzle",
+		"Bambu Lab H2D 0.8 nozzle",
+		
+		"Bambu Lab H2D Pro 0.2 nozzle",
+		"Bambu Lab H2D Pro 0.4 nozzle",
+		"Bambu Lab H2D Pro 0.6 nozzle",
+		"Bambu Lab H2D Pro 0.8 nozzle",
+		
+		"Bambu Lab H2S 0.2 nozzle",
+		"Bambu Lab H2S 0.4 nozzle",
+		"Bambu Lab H2S 0.6 nozzle",
+		"Bambu Lab H2S 0.8 nozzle",
+		
+		"Bambu Lab H2C 0.2 nozzle",
+		"Bambu Lab H2C 0.4 nozzle",
+		"Bambu Lab H2C 0.6 nozzle",
+		"Bambu Lab H2C 0.8 nozzle",
+		
+		"Bambu Lab P1P 0.2 nozzle",
+		"Bambu Lab P1P 0.4 nozzle",
+		"Bambu Lab P1P 0.6 nozzle",
+		"Bambu Lab P1P 0.8 nozzle",
+		
+		"Bambu Lab P1S 0.2 nozzle",
+		"Bambu Lab P1S 0.4 nozzle",
+		"Bambu Lab P1S 0.6 nozzle",
+		"Bambu Lab P1S 0.8 nozzle",
+		
+		"Bambu Lab P2S 0.2 nozzle",
+		"Bambu Lab P2S 0.4 nozzle",
+		"Bambu Lab P2S 0.6 nozzle",
+		"Bambu Lab P2S 0.8 nozzle",
+		
+		"Bambu Lab X1 0.2 nozzle",
+		"Bambu Lab X1 0.4 nozzle",
+		"Bambu Lab X1 0.6 nozzle",
+		"Bambu Lab X1 0.8 nozzle",
+		
+		"Bambu Lab X1 Carbon 0.2 nozzle",
+		"Bambu Lab X1 Carbon 0.4 nozzle",
+		"Bambu Lab X1 Carbon 0.6 nozzle",
+		"Bambu Lab X1 Carbon 0.8 nozzle",
+		
+		"Bambu Lab X1E 0.2 nozzle",
+		"Bambu Lab X1E 0.4 nozzle",
+		"Bambu Lab X1E 0.6 nozzle",
+		"Bambu Lab X1E 0.8 nozzle",
+		
+		"Anycubic Kobra S1 0.4 nozzle",
+		
+		"Creality K1 (0.4 nozzle)",
+		"Creality K1 (0.6 nozzle)",
+		"Creality K1 (0.8 nozzle)",
+		
+		"Creality K1 Max (0.4 nozzle)",
+		"Creality K1 Max (0.6 nozzle)",
+		"Creality K1 max (0.8 nozzle)",
+		
+		"Creality K1 SE 0.4 nozzle",
+		
+		"Creality K1C 0.4 nozzle",
+		"Creality K1C 0.6 nozzle",
+		"Creality K1C 0.8 nozzle",
+		
+		"Creality K2 Plus 0.2 nozzle",
+		"Creality K2 Plus 0.4 nozzle",
+		"Creality K2 Plus 0.6 nozzle",
+		"Creality K2 Plus 0.8 nozzle",
+		
+		"Elegoo Centauri 0.2 nozzle",
+		"Elegoo Centauri 0.4 nozzle",
+		"Elegoo Centauri 0.6 nozzle",
+		"Elegoo Centauri 0.8 nozzle",
+		
+		"Elegoo Centauri Carbon 0.2 nozzle",
+		"Elegoo Centauri Carbon 0.4 nozzle",
+		"Elegoo Centauri Carbon 0.6 nozzle",
+		"Elegoo Centauri Carbon 0.8 nozzle",
+		
+		"Snapmaker U1 (0.4 nozzle)"
+    ],
+    "version": "2.4.0.1"
+}

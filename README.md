@@ -73,30 +73,56 @@ Copy the files to their respective directories:
 
 ## 📋 Print Settings Overview
 
-### Recommended Temperatures
+### Recommended Print Settings
 
-| Material | Nozzle Temp | First Layer | Bed Temp | First Layer Bed |
-|----------|-------------|-------------|----------|-----------------|
-| PLA/PHA  | 205°C       | 210°C       | 60°C     | 60°C            |
-| PETG     | 245°C       | 250°C       | 75°C     | 85°C            |
-| nGen     | 230°C       | 235°C       | 70°C     | 85°C            |
-| nGen_flex| 230°C       | 235°C       | 50°C     | 50°C            |
-
-### Print Speed Recommendations
-
-| Material | Outer Wall | Inner Wall | Infill | Top Layer |
-|----------|-----------|------------|--------|-----------|
-| PLA/PHA  | 40 mm/s   | 50 mm/s    | 60 mm/s| 40 mm/s   |
-| PETG     | 40 mm/s   | 50 mm/s    | 60 mm/s| 40 mm/s   |
-| nGen     | 40 mm/s   | 50 mm/s    | 60 mm/s| 40 mm/s   |
-| nGen_flex| 20 mm/s   | 25 mm/s    | 30 mm/s| 20 mm/s   |
+| Material                   | Nozzle Temp   | Bed Temp      | Fan Speed   | Print Speed    |
+|----------------------------|---------------|---------------|-------------|----------------|
+| PLA Economy                | 195-220°C     | 50-60°C       | 100%        | 40-100 mm/s    |
+| PLA CoD                    | 195-220°C     | 50-60°C       | 100%        | 40-100 mm/s    |
+| PLA/PHA                    | 195-220°C     | 50-60°C       | 100%        | 40-100 mm/s    |
+| PLA Semi Matte             | 195-220°C     | 50-60°C       | 100%        | 40-100 mm/s    |
+| PLA HP                     | 200-220°C     | 50-60°C       | 100%        | 40-100 mm/s    |
+| PLA Regrind                | 195-220°C     | 50-60°C       | 100%        | 40-100 mm/s    |
+| PLA High Speed Pro         | 215-225°C     | 50-60°C       | 100%        | 275-285 mm/s   |
+| stoneFill                  | 195-220°C     | 50-60°C       | 100%        | 40-100 mm/s    |
+| corkFill                   | 210-230°C     | 50-60°C       | 100%        | 40-60 mm/s     |
+| woodFill                   | 195-220°C     | 50-60°C       | 100%        | 40-100 mm/s    |
+| copperFill                 | 195-220°C     | 50-60°C       | 100%        | 40-100 mm/s    |
+| bronzeFill                 | 195-220°C     | 50-60°C       | 100%        | 40-100 mm/s    |
+| steelFill                  | 190-210°C     | 50-60°C       | 100%        | 40-80 mm/s     |
+| glowFill                   | 195-220°C     | 50-60°C       | 100%        | 40-100 mm/s    |
+| Vibers                     | 195-220°C     | 50-60°C       | 100%        | 40-100 mm/s    |
+| LW-PLA (Unfoamed)          | 210°C         | 50-60°C       | 100%        | 40-100 mm/s    |
+| LW-PLA (Foamed)            | 235°C         | 50-60°C       | 100%        | 40-100 mm/s    |
+| LW-PLA-HT (Unfoamed)       | 210°C         | 50-60°C       | 100%        | 40-100 mm/s    |
+| LW-PLA-HT (Foamed)         | 235°C         | 50-60°C       | 100%        | 40-100 mm/s    |
+| allPHA                     | 190-200°C     | 0-60°C        | 100%        | 40-80 mm/s     |
+| varioShore TPU (Unfoamed)  | 210°C         | 20-40°C       | 100%        | 20-30 mm/s     |
+| varioShore TPU (Foamed)    | 235°C         | 20-40°C       | 100%        | 20-30 mm/s     |
+| TPU 85A                    | 220-230°C     | 30-40°C       | 25-50%      | 30-40 mm/s     |
+| TPU 95A                    | 220-230°C     | 30-40°C       | 25-50%      | 30-40 mm/s     |
+| PETG Economy               | 235-255°C     | 70-80°C       | 75-100%     | 30-50 mm/s     |
+| PETG Semi Matte            | 235-255°C     | 70-80°C       | 75-100%     | 30-50 mm/s     |
+| PETG Regrind               | 235-255°C     | 70-80°C       | 75-100%     | 30-50 mm/s     |
+| PETG                       | 235-255°C     | 70-80°C       | 75-100%     | 30-50 mm/s     |
+| colorFabb XT               | 240-260°C     | 60-70°C       | 25-50%      | 40-70 mm/s     |
+| colorFabb XT CF20          | 240-260°C     | 60-70°C       | 25-50%      | 40-70 mm/s     |
+| colorFabb HT               | 250-280°C     | 100-120°C     | 25-50%      | 30-50 mm/s     |
+| nGen                       | 220-240°C     | 75-85°C       | 25-50%      | 40-70 mm/s     |
+| nGen_flex                  | 240-260°C     | 75-85°C       | 25-50%      | 30-60 mm/s     |
+| nGen CF10                  | 220-240°C     | 75-85°C       | 25-50%      | 40-70 mm/s     |
+| ASA                        | 240-260°C     | 90-100°C      | 0-50%       | 30-50 mm/s     |
+| LW-ASA (Foamed)            | 240°C         | 90-100°C      | 0-50%       | 30-50 mm/s     |
+| PA Neat                    | 265-290°C     | 30-50°C       | 0-50%       | 30-40 mm/s     |
+| PA-CF Low Warp             | 260-280°C     | 30-50°C       | 0-50%       | 30-40 mm/s     |
+| PA Blue Metal Detectable   | 265-290°C     | 30-50°C       | 0-50%       | 30-40 mm/s     |
 
 ## ⚠️ Important Notes
 
 ### nGen_flex
 - **Requires direct drive extruder** for best results
 - Use minimal retraction (0.5mm recommended)
-- Print slowly (20-30 mm/s)
+- Print slowly (30-60 mm/s)
 - Disable retraction on travel moves if possible
 
 ### PETG and nGen

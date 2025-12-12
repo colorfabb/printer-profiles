@@ -2,6 +2,8 @@
 
 Thank you for your interest in contributing to the colorFabb printer profiles repository!
 
+> **Note:** This repository is protected. Direct modifications to the `main` branch are not permitted. All changes must be submitted via Pull Request and reviewed by the engineering team.
+
 ## How to Contribute
 
 ### Reporting Issues
