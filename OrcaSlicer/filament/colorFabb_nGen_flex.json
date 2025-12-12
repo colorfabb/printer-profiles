@@ -43,7 +43,7 @@
     "filament_wipe": "0",
     "filament_wipe_distance": "0.5",
     "filament_retract_before_wipe": "0%",
-    "filament_notes": "colorFabb nGen_flex is a semi-flexible filament with shore 95A hardness. Print slowly with minimal retraction for best results. Use direct drive extruder.\n\nRecommended settings:\n- Nozzle: 230-235°C\n- Bed: 50°C\n- Print speed: 20-30mm/s\n- Retraction: 0.5mm @ 25mm/s (minimal)\n- Direct drive extruder strongly recommended\n- Disable retraction on travel if possible",
+    "filament_notes": "colorFabb nGen_flex is a semi-flexible filament with Shore 95A hardness. Print slowly with minimal retraction for best results. Use direct drive extruder.\n\nRecommended settings:\n- Nozzle: 230-235°C\n- Bed: 50°C\n- Print speed: 20-30mm/s\n- Retraction: 0.5mm @ 25mm/s (minimal)\n- Direct drive extruder strongly recommended\n- Disable retraction on travel if possible",
     "compatible_printers": [],
     "compatible_prints": []
 }
