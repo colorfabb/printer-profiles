@@ -1,19 +1,13 @@
-# OS generated files
+# OS files
 .DS_Store
-.DS_Store?
-._*
-.Spotlight-V100
-.Trashes
-ehthumbs.db
 Thumbs.db
+desktop.ini
+
+# Backup files
+*.bak
+*.backup
+*~
 
 # Temporary files
 *.tmp
-*.bak
-*~
-.*.swp
-
-# IDE files
-.vscode/
-.idea/
-*.iml
+*.temp
