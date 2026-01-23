@@ -8,16 +8,21 @@
     "close_fan_the_first_x_layers": [
         "0"
     ],
-    "compatible_printers": [
-    ],
+    "compatible_printers": [],
     "cool_plate_temp": [
-        "0"
+        "1"
     ],
     "cool_plate_temp_initial_layer": [
-        "0"
+        "1"
     ],
     "default_filament_colour": [
         "#FDF19F"
+    ],
+    "eng_plate_temp": [
+        "1"
+    ],
+    "eng_plate_temp_initial_layer": [
+        "1"
     ],
     "filament_cost": [
         "33.99"
@@ -36,10 +41,10 @@
     ],
     "from": "User",
     "hot_plate_temp": [
-        "0"
+        "1"
     ],
     "hot_plate_temp_initial_layer": [
-        "0"
+        "1"
     ],
     "inherits": "Generic PLA",
     "name": "colorFabb allPHA",
@@ -53,17 +58,16 @@
         "210"
     ],
     "supertack_plate_temp": [
-        "0"
+        "1"
     ],
     "supertack_plate_temp_initial_layer": [
-        "0"
+        "1"
     ],
     "textured_plate_temp": [
-        "0"
+        "1"
     ],
     "textured_plate_temp_initial_layer": [
-        "0"
+        "1"
     ],
     "version": "2.4.0.1"
 }
-
