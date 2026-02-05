@@ -1,0 +1,31 @@
+{
+    "default_filament_colour": [
+        "#C0C0C0"
+    ],
+    "filament_cost": [
+        "32.29"
+    ],
+    "filament_density": [
+        "1.07"
+    ],
+    "filament_extruder_variant": [
+        "Direct Drive Standard"
+    ],
+    "filament_flow_ratio": [
+        "1"
+    ],
+    "filament_max_volumetric_speed": [
+        "4"
+    ],
+    "filament_settings_id": [
+        "colorFabb ASA"
+    ],
+    "from": "User",
+    "inherits": "Generic ASA",
+    "name": "colorFabb ASA",
+	"vendor": "colorFabb",
+	"instantiation": "true",
+	"compatible_printers": [
+    ],
+    "version": "2.4.0.1"
+}

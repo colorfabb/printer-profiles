@@ -1,0 +1,61 @@
+{
+    "default_filament_colour": [
+        "#CF8A45"
+    ],
+    "eng_plate_temp": [
+        "80"
+    ],
+    "eng_plate_temp_initial_layer": [
+        "80"
+    ],
+    "filament_cost": [
+        "55.04"
+    ],
+    "filament_density": [
+        "1.2"
+    ],
+    "filament_extruder_variant": [
+        "Direct Drive Standard"
+    ],
+    "filament_flow_ratio": [
+        "1"
+    ],
+    "filament_max_volumetric_speed": [
+        "6"
+    ],
+    "filament_settings_id": [
+        "colorFabb nGen-CF10"
+    ],
+    "from": "User",
+    "hot_plate_temp": [
+        "80"
+    ],
+    "hot_plate_temp_initial_layer": [
+        "80"
+    ],
+    "inherits": "Generic PETG",
+    "name": "colorFabb nGen-CF10",
+    "nozzle_temperature": [
+        "245"
+    ],
+    "nozzle_temperature_initial_layer": [
+        "245"
+    ],
+    "supertack_plate_temp": [
+        "80"
+    ],
+    "supertack_plate_temp_initial_layer": [
+        "80"
+    ],
+    "textured_plate_temp": [
+        "80"
+    ],
+    "textured_plate_temp_initial_layer": [
+        "80"
+    ],
+	"vendor": "colorFabb",
+	"instantiation": "true",
+	"compatible_printers": [
+    ],
+    "version": "2.4.0.1"
+}

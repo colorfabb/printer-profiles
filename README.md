@@ -1,6 +1,6 @@
 # colorFabb Printer Profiles
 
-Professional 3D printing profiles for [colorFabb](https://colorfabb.com/) filaments, optimized for use with **PrusaSlicer**, **OrcaSlicer**, and **BambuStudio**.
+Professional 3D printing profiles for [colorFabb](https://colorfabb.com/) filaments, optimized for use with **PrusaSlicer**, **OrcaSlicer**, **BambuStudio**, and **AnyCubicSlicer**.
 
 ## 🎨 Supported Materials
 
@@ -55,6 +55,20 @@ Copy the files to their respective directories:
 - Filament profiles → `filament/`
 - Process profiles → `process/`
 
+### AnyCubicSlicer
+
+1. Download the profiles from the `AnyCubicSlicer` directory
+2. Open AnyCubicSlicer
+3. Navigate to: **Settings** → **Preferences** → **User Presets**
+4. Or manually copy files to:
+   - **Windows**: `C:\Users\[username]\AppData\Roaming\AnycubicSlicerNext\user\[user-number]\`
+
+   Note: the `user` directory typically contains multiple profile folders (for example a numeric folder and/or `default`). Copy the profiles into the folder that matches your active AnyCubicSlicer user profile.
+
+Copy the files to their respective directories:
+- Filament profiles → `filament/`
+- Process profiles → `process/`
+
 ## 🔧 Usage
 
 ### PrusaSlicer
@@ -64,9 +78,9 @@ Copy the files to their respective directories:
 3. Select a colorFabb print profile from the **Print Settings** dropdown
 4. Adjust printer settings as needed for your specific printer
 
-### OrcaSlicer / BambuStudio
+### OrcaSlicer / BambuStudio / AnyCubicSlicer
 
-1. Open OrcaSlicer or BambuStudio
+1. Open OrcaSlicer, BambuStudio, or AnyCubicSlicer
 2. Select a colorFabb filament from the **Filament** dropdown
 3. Select a colorFabb process profile from the **Process** dropdown
 4. Configure your printer settings

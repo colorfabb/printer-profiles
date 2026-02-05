@@ -22,12 +22,19 @@ Get started with colorFabb printer profiles in 5 minutes!
 3. Restart BambuStudio
 4. Select colorFabb profiles from dropdowns
 
+### AnyCubicSlicer
+1. Download [AnyCubicSlicer profiles](./AnyCubicSlicer)
+2. Copy `.json` files to your AnyCubicSlicer user folder
+3. Restart AnyCubicSlicer
+4. Select colorFabb profiles from dropdowns
+
 ## 📍 Config Locations
 
 ### Windows
 - PrusaSlicer: `C:\Users\[username]\AppData\Roaming\PrusaSlicer\`
 - OrcaSlicer: `C:\Users\[username]\AppData\Roaming\OrcaSlicer\user\`
 - BambuStudio: `C:\Users\[username]\AppData\Roaming\BambuStudio\user\`
+- AnyCubicSlicer: `C:\Users\[username]\AppData\Roaming\AnycubicSlicerNext\user\[user-number]\`
 
 ### macOS
 - PrusaSlicer: `~/Library/Application Support/PrusaSlicer/`
@@ -102,6 +109,7 @@ Get started with colorFabb printer profiles in 5 minutes!
   - [PrusaSlicer Guide](./PrusaSlicer/README.md)
   - [OrcaSlicer Guide](./OrcaSlicer/README.md)
   - [BambuStudio Guide](./BambuStudio/README.md)
+  - [AnyCubicSlicer Guide](./AnyCubicSlicer/README.md)
 - Visit [colorFabb.com](https://colorfabb.com/)
 - Open an issue in this repository
 

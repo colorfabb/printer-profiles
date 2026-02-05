@@ -51,7 +51,7 @@ To submit updated or new profiles:
 ### File Naming
 
 - **PrusaSlicer**: Use descriptive names with spaces (e.g., `colorFabb PLA-PHA.ini`)
-- **OrcaSlicer/BambuStudio**: Use underscores (e.g., `colorFabb_PLA_PHA.json`)
+- **OrcaSlicer/BambuStudio/AnyCubicSlicer**: Use underscores (e.g., `colorFabb_PLA_PHA.json`)
 
 ### Profile Standards
 
