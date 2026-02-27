@@ -10,18 +10,6 @@
     "description": "This is a water-soluble support filament, and usually it is only for the support structure and not for the model body. Printing this filament is of many requirements, and to get better printing quality, please refer to this wiki: PVA Printing Guide.",
 
     "compatible_printers": [
-        "Bambu Lab X1 Carbon 0.4 nozzle",
-        "Bambu Lab X1 0.4 nozzle",
-        "Bambu Lab X1 Carbon 0.6 nozzle",
-        "Bambu Lab X1 Carbon 0.8 nozzle",
-        "Bambu Lab X1 0.6 nozzle",
-        "Bambu Lab X1 0.8 nozzle",
-        "Bambu Lab P1S 0.4 nozzle",
-        "Bambu Lab P1S 0.6 nozzle",
-        "Bambu Lab P1S 0.8 nozzle",
-        "Bambu Lab X1E 0.4 nozzle",
-        "Bambu Lab X1E 0.6 nozzle",
-        "Bambu Lab X1E 0.8 nozzle"
     ],
 
     "default_filament_colour": [
@@ -154,4 +142,5 @@
     "filament_end_gcode": [
         "; filament end gcode \n\n"
     ]
+
 }
