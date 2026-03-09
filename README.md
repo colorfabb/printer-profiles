@@ -1,6 +1,6 @@
 # colorFabb Printer Profiles
 
-Professional 3D printing profiles for [colorFabb](https://colorfabb.com/) filaments, optimized for use with **PrusaSlicer**, **OrcaSlicer**, **BambuStudio**, and **AnyCubicSlicer**.
+Professional 3D printing profiles for [colorFabb](https://colorfabb.com/) filaments, optimized for use with **PrusaSlicer**, **OrcaSlicer**, **BambuStudio**, **QIDIStudio**, and **AnyCubicSlicer**.
 
 ## 🎨 Supported Materials
 
@@ -55,6 +55,20 @@ Copy the files to their respective directories:
 - Filament profiles → `filament/`
 - Process profiles → `process/`
 
+### QIDIStudio
+
+1. Download the profiles from the `QIDIStudio` directory
+2. Open QIDIStudio
+3. Navigate to: **Settings** → **Preferences** → **User Presets**
+4. Or manually copy files to:
+   - **Windows**: `C:\Users\[username]\AppData\Roaming\QIDIStudio\user\`
+   - **macOS**: `~/Library/Application Support/QIDIStudio/user/`
+   - **Linux**: `~/.config/QIDIStudio/user/`
+
+Copy the files to their respective directories:
+- Filament profiles → `filament/`
+- Process profiles → `process/`
+
 ### AnyCubicSlicer
 
 1. Download the profiles from the `AnyCubicSlicer` directory
@@ -78,9 +92,9 @@ Copy the files to their respective directories:
 3. Select a colorFabb print profile from the **Print Settings** dropdown
 4. Adjust printer settings as needed for your specific printer
 
-### OrcaSlicer / BambuStudio / AnyCubicSlicer
+### OrcaSlicer / BambuStudio / QIDIStudio / AnyCubicSlicer
 
-1. Open OrcaSlicer, BambuStudio, or AnyCubicSlicer
+1. Open OrcaSlicer, BambuStudio, QIDIStudio, or AnyCubicSlicer
 2. Select a colorFabb filament from the **Filament** dropdown
 3. Select a colorFabb process profile from the **Process** dropdown
 4. Configure your printer settings

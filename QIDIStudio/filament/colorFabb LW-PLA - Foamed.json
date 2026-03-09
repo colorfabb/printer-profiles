@@ -1,0 +1,76 @@
+{
+    "activate_air_filtration": [
+        "1"
+    ],
+    "additional_cooling_fan_speed": [
+        "100"
+    ],
+    "close_fan_the_first_x_layers": [
+        "0"
+    ],
+    "compatible_printers": [],
+    "cool_plate_temp": [
+        "60"
+    ],
+    "cool_plate_temp_initial_layer": [
+        "60"
+    ],
+    "default_filament_colour": [
+        "#8BC5C5"
+    ],
+    "eng_plate_temp": [
+        "60"
+    ],
+    "eng_plate_temp_initial_layer": [
+        "60"
+    ],
+    "filament_cost": [
+        "33.99"
+    ],
+    "filament_extruder_variant": [
+        "Direct Drive Standard"
+    ],
+    "filament_flow_ratio": [
+        "0.5"
+    ],
+    "filament_max_volumetric_speed": [
+        "4"
+    ],
+    "filament_settings_id": [
+        "colorFabb LW-PLA - Foamed"
+    ],
+    "filament_z_hop_types": [
+        "Normal Lift"
+    ],
+    "from": "User",
+    "hot_plate_temp": [
+        "60"
+    ],
+    "hot_plate_temp_initial_layer": [
+        "60"
+    ],
+    "inherits": "Generic PLA",
+    "name": "colorFabb LW-PLA - Foamed",
+    "nozzle_temperature": [
+        "240"
+    ],
+    "nozzle_temperature_initial_layer": [
+        "240"
+    ],
+    "nozzle_temperature_range_high": [
+        "210"
+    ],
+    "supertack_plate_temp": [
+        "60"
+    ],
+    "supertack_plate_temp_initial_layer": [
+        "60"
+    ],
+    "textured_plate_temp": [
+        "60"
+    ],
+    "textured_plate_temp_initial_layer": [
+        "60"
+    ],
+    "version": "2.4.0.1"
+}

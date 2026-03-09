@@ -1,0 +1,73 @@
+{
+    "activate_air_filtration": [
+        "1"
+    ],
+    "additional_cooling_fan_speed": [
+        "100"
+    ],
+    "close_fan_the_first_x_layers": [
+        "0"
+    ],
+    "compatible_printers": [],
+    "cool_plate_temp": [
+        "1"
+    ],
+    "cool_plate_temp_initial_layer": [
+        "1"
+    ],
+    "default_filament_colour": [
+        "#004000"
+    ],
+    "eng_plate_temp": [
+        "1"
+    ],
+    "eng_plate_temp_initial_layer": [
+        "1"
+    ],
+    "filament_cost": [
+        "33.99"
+    ],
+    "filament_extruder_variant": [
+        "Direct Drive Standard"
+    ],
+    "filament_flow_ratio": [
+        "1"
+    ],
+    "filament_max_volumetric_speed": [
+        "4"
+    ],
+    "filament_settings_id": [
+        "colorFabb PLA-HP"
+    ],
+    "from": "User",
+    "hot_plate_temp": [
+        "1"
+    ],
+    "hot_plate_temp_initial_layer": [
+        "1"
+    ],
+    "inherits": "Generic PLA",
+    "name": "colorFabb PLA-HP",
+    "nozzle_temperature": [
+        "210"
+    ],
+    "nozzle_temperature_initial_layer": [
+        "210"
+    ],
+    "nozzle_temperature_range_high": [
+        "210"
+    ],
+    "supertack_plate_temp": [
+        "1"
+    ],
+    "supertack_plate_temp_initial_layer": [
+        "1"
+    ],
+    "textured_plate_temp": [
+        "1"
+    ],
+    "textured_plate_temp_initial_layer": [
+        "1"
+    ],
+    "version": "2.4.0.1"
+}
