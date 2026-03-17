@@ -1,11 +1,13 @@
-# OrcaSlicer Profiles for colorFabb
+# SnapmakerOrca Profiles for colorFabb
 
-This directory contains filament and process profiles optimized for colorFabb materials in **OrcaSlicer**.
+This directory contains filament and process profiles optimized for colorFabb materials in **SnapmakerOrca**.
+
+These profiles are a direct duplicate of the ones in `OrcaSlicer/`.
 
 ## Directory Structure
 
 ```
-OrcaSlicer/
+SnapmakerOrca/
 ├── filament/     # Filament profiles (.json files)
 └── process/      # Process profiles (.json files)
 ```
@@ -14,27 +16,22 @@ OrcaSlicer/
 
 ### Option 1: Copy into the presets folder
 
-1. Locate your OrcaSlicer user presets directory:
-   - **Windows**: `C:\Users\[username]\AppData\Roaming\OrcaSlicer\user\`
-   - **macOS**: `~/Library/Application Support/OrcaSlicer/user/`
-   - **Linux**: `~/.config/OrcaSlicer/user/`
-
-2. Copy the profile files:
+1. In SnapmakerOrca, find where **User Presets** are stored (Settings/Preferences).
+2. Copy the profile files into the matching subfolders:
    - Copy files from `filament/` to `[user-dir]/filament/`
    - Copy files from `process/` to `[user-dir]/process/`
-
-3. Restart OrcaSlicer
+3. Restart SnapmakerOrca
 
 ### Option 2: Import through the UI
 
-1. Open OrcaSlicer
+1. Open SnapmakerOrca
 2. Go to the **Filament** or **Process** tab
 3. Use the preset menu (gear/settings) → **Import**
 4. Select the `.json` profile(s)
 
 ## What’s Included
 
-- **Filament profiles**: all `.json` files in `filament/` (the filenames match what you see in the preset list)
+- **Filament profiles**: all `.json` files in `filament/`
 - **Process profiles**: all `.json` files in `process/` (for example, `0.20mm - colorFabb ...`)
 
 ## Notes
@@ -44,5 +41,5 @@ OrcaSlicer/
 
 ## Support
 
-- For profile issues: open an issue in this repository and include OrcaSlicer version + printer details
+- For profile issues: open an issue in this repository and include SnapmakerOrca version + printer details
 - For material questions: [colorFabb.com](https://colorfabb.com/) / info@colorfabb.com

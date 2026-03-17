@@ -1,6 +1,6 @@
 # colorFabb Printer Profiles
 
-Professional 3D printing profiles for [colorFabb](https://colorfabb.com/) filaments, optimized for use with **PrusaSlicer**, **OrcaSlicer**, **BambuStudio**, **QIDIStudio**, and **AnyCubicSlicer**.
+Professional 3D printing profiles for [colorFabb](https://colorfabb.com/) filaments, optimized for use with **PrusaSlicer**, **OrcaSlicer**, **SnapmakerOrca**, **BambuStudio**, **QIDIStudio**, and **AnyCubicSlicer**.
 
 ## 🎨 Supported Materials
 
@@ -40,6 +40,17 @@ Copy the files to their respective directories:
 Copy the files to their respective directories:
 - Filament profiles → `filament/`
 - Process profiles → `process/`
+
+### SnapmakerOrca
+
+1. Download the profiles from the `SnapmakerOrca` directory
+2. Open SnapmakerOrca
+3. Find your **User Presets** location in the app settings/preferences
+4. Copy the files to their respective directories under your user presets folder:
+   - Filament profiles → `filament/`
+   - Process profiles → `process/`
+
+Note: The profiles in `SnapmakerOrca` are a direct duplicate of `OrcaSlicer` and use the same folder layout.
 
 ### BambuStudio
 

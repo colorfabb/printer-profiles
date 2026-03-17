@@ -16,6 +16,13 @@ Get started with colorFabb printer profiles in 5 minutes!
 3. Restart OrcaSlicer
 4. Select colorFabb profiles from dropdowns
 
+### SnapmakerOrca
+1. Download [SnapmakerOrca profiles](./SnapmakerOrca)
+2. In SnapmakerOrca, find your **User Presets** location in Settings/Preferences
+3. Copy the `.json` files into the matching `filament/` and `process/` folders
+4. Restart SnapmakerOrca
+5. Select colorFabb profiles from dropdowns
+
 ### BambuStudio
 1. Download [BambuStudio profiles](./BambuStudio)
 2. Copy `.json` files to your BambuStudio user folder
@@ -33,17 +40,20 @@ Get started with colorFabb printer profiles in 5 minutes!
 ### Windows
 - PrusaSlicer: `C:\Users\[username]\AppData\Roaming\PrusaSlicer\`
 - OrcaSlicer: `C:\Users\[username]\AppData\Roaming\OrcaSlicer\user\`
+- SnapmakerOrca: (see SnapmakerOrca Settings/Preferences → User Presets)
 - BambuStudio: `C:\Users\[username]\AppData\Roaming\BambuStudio\user\`
 - AnyCubicSlicer: `C:\Users\[username]\AppData\Roaming\AnycubicSlicerNext\user\[user-number]\`
 
 ### macOS
 - PrusaSlicer: `~/Library/Application Support/PrusaSlicer/`
 - OrcaSlicer: `~/Library/Application Support/OrcaSlicer/user/`
+- SnapmakerOrca: (see SnapmakerOrca Settings/Preferences → User Presets)
 - BambuStudio: `~/Library/Application Support/BambuStudio/user/`
 
 ### Linux
 - PrusaSlicer: `~/.config/PrusaSlicer/`
 - OrcaSlicer: `~/.config/OrcaSlicer/user/`
+- SnapmakerOrca: (see SnapmakerOrca Settings/Preferences → User Presets)
 - BambuStudio: `~/.config/BambuStudio/user/`
 
 ## 🎯 First Print Checklist
@@ -108,6 +118,7 @@ Get started with colorFabb printer profiles in 5 minutes!
 - Check slicer-specific guides:
   - [PrusaSlicer Guide](./PrusaSlicer/README.md)
   - [OrcaSlicer Guide](./OrcaSlicer/README.md)
+  - [SnapmakerOrca Guide](./SnapmakerOrca/README.md)
   - [BambuStudio Guide](./BambuStudio/README.md)
   - [AnyCubicSlicer Guide](./AnyCubicSlicer/README.md)
 - Visit [colorFabb.com](https://colorfabb.com/)

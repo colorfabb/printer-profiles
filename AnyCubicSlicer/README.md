@@ -2,7 +2,7 @@
 
 This directory contains filament and process profiles optimized for colorFabb materials in **AnyCubicSlicer**.
 
-AnyCubicSlicer uses the same preset format as **OrcaSlicer** and **BambuStudio**, so these profiles are identical to the ones in those folders.
+AnyCubicSlicer uses the same preset format as **OrcaSlicer** and **BambuStudio**, so these profiles use the same folder layout and preset format.
 
 ## Directory Structure
 
@@ -14,7 +14,7 @@ AnyCubicSlicer/
 
 ## Installation
 
-### Method 1: Manual Installation
+### Option 1: Copy into the presets folder
 
 1. Locate your AnyCubicSlicer user presets directory:
    - **Windows**: `C:\Users\[username]\AppData\Roaming\AnycubicSlicerNext\user\[user-number]\`
@@ -27,7 +27,7 @@ AnyCubicSlicer/
 
 3. Restart AnyCubicSlicer
 
-### Method 2: Import Through UI
+### Option 2: Import through the UI
 
 1. Open AnyCubicSlicer
 2. Navigate to the **Filament** or **Process** tab
@@ -36,13 +36,10 @@ AnyCubicSlicer/
 5. Choose the `.json` file you want to import
 6. The profile will appear in the dropdown menu
 
-## Using the Profiles
+## What’s Included
 
-1. Launch AnyCubicSlicer
-2. Select your printer from the **Printer** dropdown
-3. Select a colorFabb filament from the **Filament** dropdown
-4. Select the colorFabb process profile from the **Process** dropdown
-5. Load your 3D model and slice
+- **Filament profiles**: all `.json` files in `filament/`
+- **Process profiles**: all `.json` files in `process/` (for example, `0.20mm - colorFabb ...`)
 
 ## Notes
 

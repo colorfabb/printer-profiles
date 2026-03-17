@@ -1,18 +1,18 @@
 # QIDIStudio Profiles for colorFabb
 
-This directory contains filament and process profiles optimized for colorFabb materials in QIDIStudio.
+This directory contains filament and process profiles optimized for colorFabb materials in **QIDIStudio**.
 
 ## Directory Structure
 
 ```
 QIDIStudio/
 ├── filament/     # Filament profiles (.json files)
-└── process/      # Process settings profiles (.json files)
+└── process/      # Process profiles (.json files)
 ```
 
 ## Installation
 
-### Method 1: Manual Installation
+### Option 1: Copy into the presets folder
 
 1. Locate your QIDIStudio user presets directory:
    - **Windows**: `C:\Users\[username]\AppData\Roaming\QIDIStudio\user\`
@@ -25,99 +25,27 @@ QIDIStudio/
 
 3. Restart QIDIStudio
 
-### Method 2: Import Through UI
+### Option 2: Import through the UI
 
 1. Open QIDIStudio
-2. Navigate to the **Filament** or **Process** tab
-3. Click the settings icon next to the preset dropdown
-4. Select **Import**
-5. Choose the `.json` file you want to import
-6. The profile will appear in the dropdown menu
+2. Go to the **Filament** or **Process** tab
+3. Use the preset menu (gear/settings) → **Import**
+4. Select the `.json` profile(s)
 
-## Available Profiles
+## What’s Included
 
-### Filament Profiles
+- **Filament profiles**: all `.json` files in `filament/`
+- **Process profiles**: all `.json` files in `process/` (for example, `0.20mm - colorFabb ...`)
 
-- **colorFabb PLA/PHA** (`colorFabb_PLA_PHA.json`) - Premium PLA blend
-- **colorFabb PETG** (`colorFabb_PETG.json`) - Tough PETG material
-- **colorFabb nGen** (`colorFabb_nGen.json`) - Amphora copolyester
-- **colorFabb nGen_flex** (`colorFabb_nGen_flex.json`) - Semi-flexible material
+## Notes
 
-### Process Profiles
+- Profiles use metric units (mm, °C)
+- Treat these as starting points; fine-tune for your printer/environment
 
-- **0.20mm Quality @colorFabb** - Balanced quality profile for all colorFabb materials
+## Support
 
-## Using the Profiles
-
-1. Launch QIDIStudio
-2. Select your Bambu Lab printer from the **Printer** dropdown
-3. Select a colorFabb filament from the **Filament** dropdown
-4. Select the colorFabb process profile from the **Process** dropdown
-5. Load your 3D model and slice
-
-## Bambu Lab Printer Compatibility
-
-These profiles work with all Bambu Lab printers:
-- **X1 Series** (X1, X1 Carbon, X1E)
-- **P1 Series** (P1P, P1S)
-- **A1 Series** (A1, A1 mini)
-
-### Printer-Specific Notes
-
-#### X1 Carbon / X1
-- Full chamber heating available for engineering materials
-- AMS (Automatic Material System) compatible
-- Use chamber heating for nGen and PETG in cold environments
-
-#### P1 Series
-- Semi-enclosed design
-- AMS Lite compatible
-- Good for all colorFabb materials
-
-#### A1 Series
-- Open frame design
-- Single-color printing or AMS Lite
-- Excellent for PLA/PHA
-- Use enclosure for PETG/nGen in drafty areas
-
-## Key Features
-
-### Flow Calibration
-QIDIStudio includes automatic flow calibration:
-1. Use the built-in calibration feature
-2. Adjust `filament_flow_ratio` based on results
-3. Save custom profile with your calibrated values
-
-### Pressure Advance
-All profiles include recommended pressure advance values:
-- Most materials: 0.02
-- Flexible materials: 0.01
-
-Fine-tune using QIDIStudio's PA calibration tool.
-
-### Lidar & AI Features (X1 Series)
-The X1 series lidar and AI detection work great with these profiles:
-- First layer inspection
-- Spaghetti detection
-- Print failure detection
-
-### AMS Multi-Color Printing
-
-When using colorFabb filaments with AMS:
-
-1. Load filaments in AMS slots
-2. Assign each slot a colorFabb profile
-3. Use appropriate purge volumes:
-   - PLA to PLA: 50-70mm³
-   - PLA to PETG: 100-120mm³
-   - PETG to PLA: 120-150mm³
-   - Similar materials: 50-70mm³
-
-4. Enable prime tower for best color transitions
-
-## Temperature Settings
-
-### Recommended for Bambu Lab Printers
+- For profile issues: open an issue in this repository and include QIDIStudio version + printer details
+- For material questions: [colorFabb.com](https://colorfabb.com/) / info@colorfabb.com
 
 | Material | Nozzle | Bed | Chamber (X1) |
 |----------|--------|-----|--------------|
