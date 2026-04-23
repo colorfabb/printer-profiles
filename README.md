@@ -6,10 +6,12 @@ Professional 3D printing profiles for [colorFabb](https://colorfabb.com/) filame
 
 This repository includes profiles for the following colorFabb materials:
 
-- **PLA/PHA** - Premium PLA with improved impact strength
-- **PETG** - Excellent layer adhesion and chemical resistance
-- **nGen** - Amphora-based copolyester with high toughness
-- **nGen_flex** - Semi-flexible material (Shore 95A)
+- **PLA** - ColorFabb’s signature biobased PLA blends offer great printability with enhanced toughness and less brittleness, making them ideal for reliable everyday printing.
+- **TPU** - TPU options like varioShore TPU and TPU 85A/95A offer a range from ultra-soft to semi-flexible, using innovative foaming tech to vary softness, density, and elasticity for wearable and ergonomic applications.
+- **CO-POLYESTER** - The engineering-grade filament (a co-polyester) delivers clear, food-safe, low-odor prints with outstanding toughness and layer adhesion.
+- **ASA** - ASA filaments are UV- and high-temperature-resistant, providing tough, rigid outdoor prints that withstand the elements.
+- **PA (Nylon)** - PA filaments (like PA Neat or PA-CF Low Warp) are nylon-based, highly durable, low-warp, and built to endure elevated temperatures—perfect for functional, engineering parts.
+- **PHA** - allPHA is a 100% biobased and fully biodegradable filament made via bacterial fermentation, designed to minimize environmental impact without leaving microplastics behind.
 
 ## 📦 Installation
 
@@ -21,7 +23,8 @@ This repository includes profiles for the following colorFabb materials:
 4. Or manually copy files to:
    - **Windows**: `C:\Users\[username]\AppData\Roaming\PrusaSlicer\`
    - **macOS**: `~/Library/Application Support/PrusaSlicer/`
-   - **Linux**: `~/.config/PrusaSlicer/`
+   - **Linux (Ubuntu, native/AppImage)**: `~/.config/PrusaSlicer/`
+   - **Linux (Ubuntu, Flatpak)**: `~/.var/app/com.prusa3d.PrusaSlicer/config/PrusaSlicer/user/` (default user: `.../user/default/`)
 
 Copy the files to their respective directories:
 - Filament profiles → `filament/`
@@ -35,7 +38,10 @@ Copy the files to their respective directories:
 4. Or manually copy files to:
    - **Windows**: `C:\Users\[username]\AppData\Roaming\OrcaSlicer\user\`
    - **macOS**: `~/Library/Application Support/OrcaSlicer/user/`
-   - **Linux**: `~/.config/OrcaSlicer/user/`
+   - **Linux (Ubuntu, native/AppImage)**: `~/.config/OrcaSlicer/user/` (default user: `.../user/default/`)
+   - **Linux (Ubuntu, Flatpak)**: `~/.var/app/com.orcaslicer.OrcaSlicer/config/OrcaSlicer/user/` (default user: `.../user/default/`)
+
+On Ubuntu, these slicers typically store presets under `.../user/`. The default user is usually `.../user/default/`, but if you create/sign into an account the slicer may create an additional subfolder under `.../user/`. Copy profiles into the folder that matches your active user.
 
 Copy the files to their respective directories:
 - Filament profiles → `filament/`
@@ -46,7 +52,15 @@ Copy the files to their respective directories:
 1. Download the profiles from the `SnapmakerOrca` directory
 2. Open SnapmakerOrca
 3. Find your **User Presets** location in the app settings/preferences
-4. Copy the files to their respective directories under your user presets folder:
+4. Copy the files to their respective directories under your user presets folder.
+
+Ubuntu preset locations (AppImage/native installs):
+- `~/.config/Snapmaker_Orca/user/`
+- Default user: `~/.config/Snapmaker_Orca/user/default/`
+
+If you create/sign into an account, SnapmakerOrca may create an additional subfolder under `.../user/`. Copy profiles into the folder that matches your active user.
+
+Folder layout under your selected user folder:
    - Filament profiles → `filament/`
    - Process profiles → `process/`
 
@@ -60,7 +74,8 @@ Note: The profiles in `SnapmakerOrca` are a direct duplicate of `OrcaSlicer` and
 4. Or manually copy files to:
    - **Windows**: `C:\Users\[username]\AppData\Roaming\BambuStudio\user\`
    - **macOS**: `~/Library/Application Support/BambuStudio/user/`
-   - **Linux**: `~/.config/BambuStudio/user/`
+   - **Linux (Ubuntu, native/AppImage)**: `~/.config/BambuStudio/user/` (default user: `.../user/default/`)
+   - **Linux (Ubuntu, Flatpak)**: `~/.var/app/com.bambulab.BambuStudio/config/BambuStudio/user/` (default user: `.../user/default/`)
 
 Copy the files to their respective directories:
 - Filament profiles → `filament/`
@@ -74,7 +89,7 @@ Copy the files to their respective directories:
 4. Or manually copy files to:
    - **Windows**: `C:\Users\[username]\AppData\Roaming\QIDIStudio\user\`
    - **macOS**: `~/Library/Application Support/QIDIStudio/user/`
-   - **Linux**: `~/.config/QIDIStudio/user/`
+   - **Linux (Ubuntu, native/AppImage)**: `~/.config/QIDIStudio/user/` (default user: `.../user/default/`)
 
 Copy the files to their respective directories:
 - Filament profiles → `filament/`
@@ -87,6 +102,8 @@ Copy the files to their respective directories:
 3. Navigate to: **Settings** → **Preferences** → **User Presets**
 4. Or manually copy files to:
    - **Windows**: `C:\Users\[username]\AppData\Roaming\AnycubicSlicerNext\user\[user-number]\`
+   - **Linux (Ubuntu, native/AppImage)**: `~/.config/AnycubicSlicerNext/user/` (default user: `.../user/default/`)
+   - **Linux (Ubuntu, Flatpak)**: `~/.var/app/com.anycubic.SlicerNext/config/AnycubicSlicerNext/user/` (default user: `.../user/default/`)
 
    Note: the `user` directory typically contains multiple profile folders (for example a numeric folder and/or `default`). Copy the profiles into the folder that matches your active AnyCubicSlicer user profile.
 
@@ -158,16 +175,6 @@ Copy the files to their respective directories:
 
 ## ⚠️ Important Notes
 
-### nGen_flex
-- **Requires direct drive extruder** for best results
-- Use minimal retraction (0.5mm recommended)
-- Print slowly (30-60 mm/s)
-- Disable retraction on travel moves if possible
-
-### PETG and nGen
-- Reduce cooling compared to PLA
-- First layer bed temperature is higher for better adhesion
-- May require z-offset adjustment
 
 ### General Tips
 - Always run a temperature tower when trying a new material
