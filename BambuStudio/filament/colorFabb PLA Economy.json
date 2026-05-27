@@ -387,5 +387,11 @@
         "#FF0000"
     ],
     "version": "2.4.0.1",
-    "vendor": "colorFabb"
+    "vendor": "colorFabb",
+    "close_additional_fan_first_x_layers": [
+        "1"
+    ],
+    "additional_fan_full_speed_layer": [
+        "8"
+    ]
 }

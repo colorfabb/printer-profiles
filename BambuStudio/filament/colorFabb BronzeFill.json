@@ -404,5 +404,11 @@
         "#7E623A"
     ],
     "vendor": "colorFabb",
-    "version": "2.4.0.5"
+    "version": "2.4.0.5",
+    "close_additional_fan_first_x_layers": [
+        "1"
+    ],
+    "additional_fan_full_speed_layer": [
+        "8"
+    ]
 }

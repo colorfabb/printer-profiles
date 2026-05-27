@@ -386,5 +386,11 @@
     "default_filament_colour": [
         "#4A4A4A"
     ],
-    "version": "2.4.0.1"
+    "version": "2.4.0.1",
+    "close_additional_fan_first_x_layers": [
+        "1"
+    ],
+    "additional_fan_full_speed_layer": [
+        "8"
+    ]
 }
