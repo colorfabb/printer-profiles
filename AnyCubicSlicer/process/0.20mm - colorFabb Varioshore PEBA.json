@@ -1,6 +1,6 @@
 {
     "type": "process",
-    "name": "0.20mm - colorFabb PEBA",
+    "name": "0.20mm - colorFabb Varioshore PEBA",
     "from": "User",
     "instantiation": "true",
     "adaptive_layer_height": "0",
