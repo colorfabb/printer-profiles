@@ -9,7 +9,7 @@
     "bottom_shell_thickness": "0",
     "bottom_surface_pattern": "monotonic",
     "bottom_surface_density": "100",
-    "bridge_flow": "1",
+    "bridge_flow": "0.62",
     "bridge_no_support": "0",
     "bridge_speed": [
         "50",
