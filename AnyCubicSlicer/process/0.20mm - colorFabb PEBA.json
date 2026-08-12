@@ -1,6 +1,6 @@
 {
     "type": "process",
-    "name": "0.20mm - colorFabb Varioshore TPU - P1P",
+    "name": "0.20mm - colorFabb PEBA",
     "from": "User",
     "instantiation": "true",
     "adaptive_layer_height": "0",
