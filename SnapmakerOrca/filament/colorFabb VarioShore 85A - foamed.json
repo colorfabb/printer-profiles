@@ -1,6 +1,6 @@
 {
     "activate_air_filtration": [
-        "1"
+        "0"
     ],
     "activate_chamber_temp_control": [
         "0"
@@ -18,13 +18,13 @@
         "0"
     ],
     "additional_cooling_fan_speed": [
-        "100"
+        "70"
     ],
     "chamber_temperature": [
         "0"
     ],
     "close_fan_the_first_x_layers": [
-        "0"
+        "1"
     ],
     "compatible_printers": [],
     "compatible_printers_condition": "",
@@ -40,7 +40,7 @@
         "60"
     ],
     "default_filament_colour": [
-        "#8BC5C5"
+        "#595959"
     ],
     "dont_slow_down_outer_wall": [
         "0"
@@ -79,13 +79,13 @@
         "4"
     ],
     "filament_cost": [
-        "33.99"
+        "63.99"
     ],
     "filament_density": [
-        "1.24"
+        "1.2"
     ],
     "filament_deretraction_speed": [
-        "nil"
+        "20"
     ],
     "filament_diameter": [
         "1.75"
@@ -94,9 +94,9 @@
         "; filament end gcode \n\n"
     ],
     "filament_flow_ratio": [
-        "0.5"
+        "0.7"
     ],
-    "filament_id": "GFL99",
+    "filament_id": "GFU99",
     "filament_is_support": [
         "0"
     ],
@@ -119,10 +119,10 @@
         "1"
     ],
     "filament_multitool_ramming_flow": [
-        "20"
+        "3.2"
     ],
     "filament_multitool_ramming_volume": [
-        "0.5"
+        "0.1"
     ],
     "filament_notes": [
         ""
@@ -134,7 +134,7 @@
         "nil"
     ],
     "filament_retract_length_toolchange": [
-        "nil"
+        "2"
     ],
     "filament_retract_lift_above": [
         "nil"
@@ -158,16 +158,16 @@
         "nil"
     ],
     "filament_retraction_length": [
-        "nil"
+        "1.5"
     ],
     "filament_retraction_minimum_travel": [
         "nil"
     ],
     "filament_retraction_speed": [
-        "nil"
+        "20"
     ],
     "filament_settings_id": [
-        "colorFabb LW-PLA - Foamed"
+        "colorFabb VarioShore 85A - foamed"
     ],
     "filament_shrink": [
         "100%"
@@ -185,13 +185,13 @@
         "0"
     ],
     "filament_start_gcode": [
-        "; filament start gcode\n{if  (bed_temperature[current_extruder] >55)||(bed_temperature_initial_layer[current_extruder] >55)}M106 P3 S200\n{elsif(bed_temperature[current_extruder] >50)||(bed_temperature_initial_layer[current_extruder] >50)}M106 P3 S150\n{elsif(bed_temperature[current_extruder] >45)||(bed_temperature_initial_layer[current_extruder] >45)}M106 P3 S50\n{endif}\n\n{if activate_air_filtration[current_extruder] && support_air_filtration}\nM106 P3 S{during_print_exhaust_fan_speed_num[current_extruder]} \n{endif}"
+        "; filament start gcode\n{if (bed_temperature[current_extruder] >35)||(bed_temperature_initial_layer[current_extruder] >35)}M106 P3 S255\n{elsif (bed_temperature[current_extruder] >30)||(bed_temperature_initial_layer[current_extruder] >30)}M106 P3 S180\n{endif} \n\n{if activate_air_filtration[current_extruder] && support_air_filtration}\nM106 P3 S{during_print_exhaust_fan_speed_num[current_extruder]} \n{endif}"
     ],
     "filament_toolchange_delay": [
         "0"
     ],
     "filament_type": [
-        "PLA"
+        "TPU"
     ],
     "filament_unloading_speed": [
         "90"
@@ -240,15 +240,15 @@
     "ironing_fan_speed": [
         "-1"
     ],
-    "name": "colorFabb LW-PLA - Foamed",
+    "name": "colorFabb VarioShore 85A - foamed",
     "nozzle_temperature": [
-        "240"
+        "250"
     ],
     "nozzle_temperature_initial_layer": [
-        "240"
+        "250"
     ],
     "nozzle_temperature_range_high": [
-        "210"
+        "260"
     ],
     "nozzle_temperature_range_low": [
         "190"
@@ -257,7 +257,7 @@
         "100"
     ],
     "overhang_fan_threshold": [
-        "50%"
+        "95%"
     ],
     "pellet_flow_coefficient": [
         "0.4157"
@@ -278,19 +278,19 @@
         "8"
     ],
     "slow_down_min_speed": [
-        "20"
+        "10"
     ],
     "supertack_plate_temp": [
-        "60"
+        "0"
     ],
     "supertack_plate_temp_initial_layer": [
-        "60"
+        "0"
     ],
     "support_material_interface_fan_speed": [
         "-1"
     ],
     "temperature_vitrification": [
-        "45"
+        "30"
     ],
     "textured_cool_plate_temp": [
         "40"

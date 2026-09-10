@@ -116,13 +116,13 @@
         "15"
     ],
     "filament_multitool_ramming": [
-        "0"
+        "1"
     ],
     "filament_multitool_ramming_flow": [
-        "10"
+        "3.2"
     ],
     "filament_multitool_ramming_volume": [
-        "10"
+        "0.1"
     ],
     "filament_notes": [
         ""
@@ -167,7 +167,7 @@
         "20"
     ],
     "filament_settings_id": [
-        "colorFabb VarioShore TPU - Medium foamed"
+        "colorFabb VarioShore TPU 95A - Medium foamed"
     ],
     "filament_shrink": [
         "100%"

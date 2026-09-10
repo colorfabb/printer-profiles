@@ -20,20 +20,8 @@
     "additional_cooling_fan_speed": [
         "70"
     ],
-    "additional_fan_full_speed_layer": [
-        "8"
-    ],
     "chamber_temperature": [
         "0"
-    ],
-    "chamber_temperatures": [
-        "0"
-    ],
-    "circle_compensation_speed": [
-        "200"
-    ],
-    "close_additional_fan_first_x_layers": [
-        "1"
     ],
     "close_fan_the_first_x_layers": [
         "1"
@@ -51,32 +39,8 @@
     "cool_plate_temp_initial_layer": [
         "60"
     ],
-    "cooling_perimeter_transition_distance": [
-        "10"
-    ],
-    "cooling_slowdown_logic": [
-        "uniform_cooling"
-    ],
-    "counter_coef_1": [
-        "0"
-    ],
-    "counter_coef_2": [
-        "0.008"
-    ],
-    "counter_coef_3": [
-        "-0.041"
-    ],
-    "counter_limit_max": [
-        "0.033"
-    ],
-    "counter_limit_min": [
-        "-0.035"
-    ],
     "default_filament_colour": [
         "#595959"
-    ],
-    "diameter_limit": [
-        "50"
     ],
     "dont_slow_down_outer_wall": [
         "0"
@@ -105,21 +69,6 @@
     "fan_min_speed": [
         "100"
     ],
-    "filament_adaptive_volumetric_speed": [
-        "0"
-    ],
-    "filament_adhesiveness_category": [
-        "600"
-    ],
-    "filament_bridge_speed": [
-        "25"
-    ],
-    "filament_change_length": [
-        "10"
-    ],
-    "filament_cooling_before_tower": [
-        "0"
-    ],
     "filament_cooling_final_speed": [
         "3.4"
     ],
@@ -138,56 +87,14 @@
     "filament_deretraction_speed": [
         "20"
     ],
-    "filament_dev_ams_drying_ams_limitations": [
-        "1"
-    ],
-    "filament_dev_ams_drying_heat_distortion_temperature": [
-        "45"
-    ],
-    "filament_dev_ams_drying_temperature": [
-        "65",
-        "75",
-        "45",
-        "45"
-    ],
-    "filament_dev_ams_drying_time": [
-        "12",
-        "18",
-        "12",
-        "18"
-    ],
-    "filament_dev_chamber_drying_bed_temperature": [
-        "90.0"
-    ],
-    "filament_dev_chamber_drying_time": [
-        "16"
-    ],
-    "filament_dev_drying_cooling_temperature": [
-        "40"
-    ],
-    "filament_dev_drying_softening_temperature": [
-        "50"
-    ],
     "filament_diameter": [
         "1.75"
-    ],
-    "filament_enable_overhang_speed": [
-        "1"
     ],
     "filament_end_gcode": [
         "; filament end gcode \n\n"
     ],
-    "filament_extruder_variant": [
-        "Direct Drive Standard"
-    ],
     "filament_flow_ratio": [
         "0.7"
-    ],
-    "filament_flush_temp": [
-        "0"
-    ],
-    "filament_flush_volumetric_speed": [
-        "0"
     ],
     "filament_id": "GFU99",
     "filament_is_support": [
@@ -202,9 +109,6 @@
     "filament_long_retractions_when_cut": [
         "nil"
     ],
-    "filament_long_retractions_when_ec": [
-        "nil"
-    ],
     "filament_max_volumetric_speed": [
         "4"
     ],
@@ -212,67 +116,22 @@
         "15"
     ],
     "filament_multitool_ramming": [
-        "0"
+        "1"
     ],
     "filament_multitool_ramming_flow": [
-        "10"
+        "3.2"
     ],
     "filament_multitool_ramming_volume": [
-        "10"
+        "0.1"
     ],
     "filament_notes": [
         ""
     ],
-    "filament_overhang_1_4_speed": [
-        "0"
-    ],
-    "filament_overhang_2_4_speed": [
-        "50"
-    ],
-    "filament_overhang_3_4_speed": [
-        "30"
-    ],
-    "filament_overhang_4_4_speed": [
-        "10"
-    ],
-    "filament_overhang_totally_speed": [
-        "10"
-    ],
-    "filament_pre_cooling_temperature": [
-        "0"
-    ],
-    "filament_pre_cooling_temperature_nc": [
-        "0"
-    ],
-    "filament_prime_volume": [
-        "45"
-    ],
-    "filament_prime_volume_nc": [
-        "60"
-    ],
-    "filament_printable": [
-        "3"
-    ],
     "filament_ramming_parameters": [
         "120 100 6.6 6.8 7.2 7.6 7.9 8.2 8.7 9.4 9.9 10.0| 0.05 6.6 0.45 6.8 0.95 7.8 1.45 8.3 1.95 9.7 2.45 10 2.95 7.6 3.45 7.6 3.95 7.6 4.45 7.6 4.95 7.6"
     ],
-    "filament_ramming_travel_time": [
-        "0"
-    ],
-    "filament_ramming_travel_time_nc": [
-        "0"
-    ],
-    "filament_ramming_volumetric_speed": [
-        "-1"
-    ],
-    "filament_ramming_volumetric_speed_nc": [
-        "-1"
-    ],
     "filament_retract_before_wipe": [
         "nil"
-    ],
-    "filament_retract_length_nc": [
-        "14"
     ],
     "filament_retract_length_toolchange": [
         "2"
@@ -298,9 +157,6 @@
     "filament_retraction_distances_when_cut": [
         "nil"
     ],
-    "filament_retraction_distances_when_ec": [
-        "nil"
-    ],
     "filament_retraction_length": [
         "1.5"
     ],
@@ -310,20 +166,8 @@
     "filament_retraction_speed": [
         "20"
     ],
-    "filament_scarf_gap": [
-        "0%"
-    ],
-    "filament_scarf_height": [
-        "10%"
-    ],
-    "filament_scarf_length": [
-        "10"
-    ],
-    "filament_scarf_seam_type": [
-        "none"
-    ],
     "filament_settings_id": [
-        "colorFabb VarioShore 85A - foamed"
+        "colorFabb VarioShore TPU 85A - foamed"
     ],
     "filament_shrink": [
         "100%"
@@ -346,21 +190,6 @@
     "filament_toolchange_delay": [
         "0"
     ],
-    "filament_tower_interface_pre_extrusion_dist": [
-        "10"
-    ],
-    "filament_tower_interface_pre_extrusion_length": [
-        "0"
-    ],
-    "filament_tower_interface_print_temp": [
-        "-1"
-    ],
-    "filament_tower_interface_purge_volume": [
-        "20"
-    ],
-    "filament_tower_ironing_area": [
-        "4"
-    ],
     "filament_type": [
         "TPU"
     ],
@@ -369,9 +198,6 @@
     ],
     "filament_unloading_speed_start": [
         "100"
-    ],
-    "filament_velocity_adaptation_factor": [
-        "1"
     ],
     "filament_vendor": [
         "Generic"
@@ -388,30 +214,15 @@
     "filament_z_hop_types": [
         "Normal Lift"
     ],
-    "first_x_layer_fan_speed": [
-        "100"
-    ],
-    "first_x_layer_part_fan_speed": [
-        "100"
-    ],
     "from": "User",
     "full_fan_speed_layer": [
         "0"
     ],
-    "hole_coef_1": [
+    "graphic_effect_plate_temp": [
         "0"
     ],
-    "hole_coef_2": [
-        "-0.008"
-    ],
-    "hole_coef_3": [
-        "0.23415"
-    ],
-    "hole_limit_max": [
-        "0.22"
-    ],
-    "hole_limit_min": [
-        "0.088"
+    "graphic_effect_plate_temp_initial_layer": [
+        "0"
     ],
     "hot_plate_temp": [
         "60"
@@ -422,24 +233,14 @@
     "idle_temperature": [
         "0"
     ],
-    "impact_strength_z": [
-        "10"
-    ],
     "inherits": "",
-    "instantiation": "true",
     "internal_bridge_fan_speed": [
         "-1"
     ],
     "ironing_fan_speed": [
         "-1"
     ],
-    "long_retractions_when_ec": [
-        "0"
-    ],
     "name": "colorFabb VarioShore TPU 85A - foamed",
-    "no_slow_down_for_cooling_on_outwalls": [
-        "0"
-    ],
     "nozzle_temperature": [
         "250"
     ],
@@ -458,9 +259,6 @@
     "overhang_fan_threshold": [
         "95%"
     ],
-    "override_process_overhang_speed": [
-        "0"
-    ],
     "pellet_flow_coefficient": [
         "0.4157"
     ],
@@ -472,9 +270,6 @@
     ],
     "required_nozzle_HRC": [
         "3"
-    ],
-    "retraction_distances_when_ec": [
-        "0"
     ],
     "slow_down_for_layer_cooling": [
         "1"
@@ -509,10 +304,5 @@
     "textured_plate_temp_initial_layer": [
         "60"
     ],
-    "type": "filament",
-    "vendor": "colorFabb",
-    "version": "2.4.0.1",
-    "volumetric_speed_coefficients": [
-        "0 0 0 0 0 0"
-    ]
+    "version": "2.4.0.1"
 }
