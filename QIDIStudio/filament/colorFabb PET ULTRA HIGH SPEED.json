@@ -1,0 +1,69 @@
+{
+    "cool_plate_temp": [
+        "60"
+    ],
+    "cool_plate_temp_initial_layer": [
+        "60"
+    ],
+    "default_filament_colour": [
+        "#78C798"
+    ],
+    "eng_plate_temp": [
+        "60"
+    ],
+    "eng_plate_temp_initial_layer": [
+        "60"
+    ],
+    "fan_cooling_layer_time": [
+        "100"
+    ],
+    "filament_density": [
+        "1.33"
+    ],
+    "filament_extruder_variant": [
+        "Direct Drive Standard"
+    ],
+    "filament_max_volumetric_speed": [
+        "40"
+    ],
+    "filament_settings_id": [
+        "colorFabb PET ULTRA HIGH SPEED"
+    ],
+    "from": "User",
+    "hot_plate_temp": [
+        "60"
+    ],
+    "hot_plate_temp_initial_layer": [
+        "60"
+    ],
+    "inherits": "colorFabb PETG",
+    "name": "colorFabb PET ULTRA HIGH SPEED",
+    "nozzle_temperature": [
+        "300"
+    ],
+    "nozzle_temperature_initial_layer": [
+        "300"
+    ],
+    "nozzle_temperature_range_high": [
+        "320"
+    ],
+    "nozzle_temperature_range_low": [
+        "280"
+    ],
+    "slow_down_layer_time": [
+        "10"
+    ],
+    "supertack_plate_temp": [
+        "60"
+    ],
+    "supertack_plate_temp_initial_layer": [
+        "60"
+    ],
+    "textured_plate_temp": [
+        "60"
+    ],
+    "textured_plate_temp_initial_layer": [
+        "60"
+    ],
+    "version": "2.4.0.1"
+}
