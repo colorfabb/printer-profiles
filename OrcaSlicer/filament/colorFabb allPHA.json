@@ -39,34 +39,34 @@
     ],
 
     "cool_plate_temp": [
-        "1"
+        "10"
     ],
     "cool_plate_temp_initial_layer": [
-        "1"
+        "10"
     ],
     "eng_plate_temp": [
-        "1"
+        "10"
     ],
     "eng_plate_temp_initial_layer": [
-        "1"
+        "10"
     ],
     "hot_plate_temp": [
-        "1"
+        "10"
     ],
     "hot_plate_temp_initial_layer": [
-        "1"
+        "10"
     ],
     "supertack_plate_temp": [
-        "1"
+        "10"
     ],
     "supertack_plate_temp_initial_layer": [
-        "1"
+        "10"
     ],
     "textured_plate_temp": [
-        "1"
+        "10"
     ],
     "textured_plate_temp_initial_layer": [
-        "1"
+        "10"
     ],
 
     "filament_cost": [
@@ -89,7 +89,7 @@
         "100"
     ],
     "filament_dev_chamber_drying_bed_temperature": [
-        "70"
+        "10"
     ],
     "filament_dev_ams_drying_time": [
         "12",
