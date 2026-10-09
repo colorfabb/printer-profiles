@@ -34,10 +34,10 @@
         "80"
     ],
     "cool_plate_temp": [
-        "1"
+        "10"
     ],
     "cool_plate_temp_initial_layer": [
-        "1"
+        "10"
     ],
     "default_filament_colour": [
         "#FDF19F"
@@ -55,10 +55,10 @@
         "0"
     ],
     "eng_plate_temp": [
-        "1"
+        "10"
     ],
     "eng_plate_temp_initial_layer": [
-        "1"
+        "10"
     ],
     "fan_cooling_layer_time": [
         "100"
@@ -224,10 +224,10 @@
         "0"
     ],
     "hot_plate_temp": [
-        "1"
+        "10"
     ],
     "hot_plate_temp_initial_layer": [
-        "1"
+        "10"
     ],
     "idle_temperature": [
         "0"
@@ -280,10 +280,10 @@
         "20"
     ],
     "supertack_plate_temp": [
-        "1"
+        "10"
     ],
     "supertack_plate_temp_initial_layer": [
-        "1"
+        "10"
     ],
     "support_material_interface_fan_speed": [
         "-1"
@@ -298,10 +298,10 @@
         "40"
     ],
     "textured_plate_temp": [
-        "1"
+        "10"
     ],
     "textured_plate_temp_initial_layer": [
-        "1"
+        "10"
     ],
     "version": "2.4.0.1"
 }
